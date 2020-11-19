@@ -1,5 +1,7 @@
 node_modules
-semantic/dist/
+semantic/dist/*
+!semantic/dist/semantic.min.css
+!semantic/dist/semantic.css
 semantic/tasks/
 semantic/gulpfile.js
 semantic/src/themes
