@@ -1,0 +1,24 @@
+/*******************************
+            Input
+*******************************/
+
+/*-------------------
+      Element
+--------------------*/
+@defaultBorderRadius: @6px;
+@borderColor: @gray-200;
+@inputBackground: @gray-200;
+
+@inputFont: @pageFont;
+
+/*-------------------
+        States
+--------------------*/
+
+/* Down */
+@downBackground: @gray-100;
+@downColor: @gray-800;
+@focusColor: @gray-800;
+
+/* Focus */
+@focusBackground: #FFFFFF;

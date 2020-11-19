@@ -1,0 +1,34 @@
+/*******************************
+            Dropdown
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+@borderRadius: @8px;
+
+@borderColor: rgba(0, 0, 0, 0.15);
+
+
+/*-------------------
+       States
+--------------------*/
+
+/* Hovered */
+@hoveredItemBackground: rgba(203, 213, 224, 0.12);
+@hoveredItemColor: @gray-900;
+
+/* Selected */
+@selectedBackground: rgba(203, 213, 224, 0.24);
+@selectedColor: @gray-900;
+
+/* Error */
+@errorLabelBackground: transparent;
+@errorLabelColor: @red-600;
+
+@errorItemTextColor: @red-600;
+@errorItemHoverBackground: @red-100;
+@errorItemActiveBackground: @red-200;
+
+

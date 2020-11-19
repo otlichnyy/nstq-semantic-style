@@ -1,0 +1,62 @@
+/*******************************
+             Menu
+*******************************/
+
+/*-------------------
+      Collection
+--------------------*/
+/* Menu Item */
+@itemFontWeight: @bold;
+@itemTextColor: @gray-500;
+
+/*--------------
+    Elements
+---------------*/
+
+/* Vertical Icon */
+@verticalIconFloat: none;
+@verticalIconMargin: 0 0.5em 0 -0.5em;
+
+/*--------------
+    Couplings
+---------------*/
+/* Label */
+@labelOffset: -0.15em;
+@labelBackground: @gray-900;
+@labelTextColor: @gray-500;
+
+@labelAndIconFloat: none;
+@labelAndIconMargin: 0em 0.5em 0em 0em;
+
+/*--------------
+     States
+---------------*/
+
+/* Active Item */
+@activeItemBackground: @gray-800;
+@activeItemTextColor: #FFFFFF;
+@activeItemFontWeight: @bold;
+
+/*--------------
+     Types
+---------------*/
+/* Secondary */
+@secondaryBackground: @gray-800;
+
+@secondaryHoverItemBackground: none transparent;
+@secondaryHoverItemColor: @gray-400;
+
+@secondaryActiveItemBackground: @gray-900;
+@secondaryActiveItemColor: #FFFFFF;
+@secondaryActiveHoverItemBackground: @gray-900;
+@secondaryActiveHoverItemColor: #FFFFFF;
+
+@secondaryActiveHoveredItemBackground: none transparent;
+@secondaryActiveHoveredItemColor: #FFFFFF;
+
+@secondaryVerticalItemMargin: 0em 0.3em 0em 0.3em ;
+
+
+
+
+

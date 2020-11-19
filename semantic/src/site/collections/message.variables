@@ -1,0 +1,16 @@
+/*******************************
+            Message
+*******************************/
+/*-------------------
+       Elements
+--------------------*/
+
+@background: @gray-200;
+
+@borderRadius: 0.5em;
+
+
+/* Close Icon */
+@closeTopDistance: auto; 
+
+

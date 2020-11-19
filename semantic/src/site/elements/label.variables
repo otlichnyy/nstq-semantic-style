@@ -1,0 +1,26 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@backgroundColor: @gray-300;
+@color: @gray-700;
+
+
+/*-------------------
+        States
+--------------------*/
+
+/* Hover */
+@labelHoverBackgroundColor: @gray-400;
+@labelHoverBackgroundImage: none;
+@labelHoverTextColor: @gray-900;
+
+/* Active */
+@labelActiveBackgroundColor: @gray-500;
+@labelActiveBackgroundImage: none;
+@labelActiveTextColor: @gray-900;
+
+/* Active Hover */
+@labelActiveHoverBackgroundColor: @gray-500;
+@labelActiveHoverBackgroundImage: none;
+@labelActiveHoverTextColor: @gray-900;

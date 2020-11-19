@@ -1,0 +1,51 @@
+/*******************************
+             Form
+*******************************/
+
+/* Input */
+@inputFont: @pageFont;
+@inputBorder: 1px solid @gray-200;
+@inputFocusColor: @gray-800;
+@inputBorderRadius: 8px;
+
+@selectBorderRadius: 8px;
+
+/* Inline Validation Prompt */
+@promptBorderColor: @red-600;
+@promptBorder: 1px solid @red-600;
+@promptTextColor: @red-600;
+
+
+/*-------------------
+        States
+--------------------*/
+/* Input Focus */
+@inputFocusBackground: #FFFFFF;
+
+/* Text Area Focus */
+@textAreaFocusBackground: #FFFFFF;
+
+/* Errored Input */
+@formErrorColor: @red-600;
+@formErrorBorder: @red-600;
+@formErrorBackground: @red-100;
+
+/* AutoFill */
+@inputAutoFillBackground: @gray-200;
+@inputAutoFillBorder: @gray-200;
+@inputAutoFillFocusBackground: @yellow-100;
+@inputAutoFillFocusBorder: @yellow-600;
+@inputAutoFillErrorBackground: @red-100;
+@inputAutoFillErrorBorder: @red-600;
+
+
+
+/* Focused Error */
+@inputErrorFocusBackground: @red-100;
+@inputErrorFocusColor: @red-600;
+@inputErrorFocusBorder: @red-600;
+
+
+
+
+

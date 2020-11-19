@@ -1,0 +1,8 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+/* Icon Variables */
+@opacity: 1;
+@width: @iconWidth;
+@height: 1.2em;
+@distanceFromText: 0.15rem;

@@ -1,0 +1,35 @@
+/*******************************
+            Button
+*******************************/
+
+/* Button */
+@backgroundColor: @gray-200;
+
+/* Text */
+@defaultBorderRadius: @6px;
+@textColor: @gray-600;
+
+/* Basic */
+@borderRadius: @6px;
+@borderColor: transparent none;
+
+/*-------------------
+        States
+--------------------*/
+
+/* Hovered */
+@hoverBackgroundColor: @gray-400;
+
+/* Focused */
+@hoveredTextColor: @gray-700;
+
+
+/* Pressed Down */
+@downBackgroundColor: @gray-500;
+@pressedTextColor: @gray-800;
+
+/* Active */
+@activeBackgroundColor: @gray-400;
+
+/* Basic Down */
+@basicDownBackground: @gray-100;
