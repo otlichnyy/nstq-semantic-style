@@ -1,0 +1,311 @@
+/* extending icons */
+@font-face {
+    font-family: 'icomoon';
+    src:
+      url('../fonts/icomoon.ttf') format('truetype'),
+      url('../fonts/icomoon.woff') format('woff'),
+      url('../fonts/icomoon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  i.icomoon{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  margin: 0 0.2em 0 -.1em !important;
+  font-size: 1.25em !important ;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icomoon.dots-horizontal:before {
+    content: "\e946";
+  }
+  .icomoon.dots-vertical:before {
+    content: "\e924";
+  }
+  .icomoon.plus:before {
+    content: "\e900";
+  }
+  .icomoon.zoom-out:before {
+    content: "\e901";
+  }
+  .icomoon.zoom-in:before {
+    content: "\e902";
+  }
+  .icomoon.x-circle:before {
+    content: "\e903";
+  }
+  .icomoon.x:before {
+    content: "\e904";
+  }
+  .icomoon.volume-up:before {
+    content: "\e905";
+  }
+  .icomoon.volume-off:before {
+    content: "\e906";
+  }
+  .icomoon.view-list:before {
+    content: "\e907";
+  }
+  .icomoon.view-grid:before {
+    content: "\e908";
+  }
+  .icomoon.arrow-up-circle:before {
+    content: "\e909";
+  }
+  .icomoon.arrow-left-circle:before {
+    content: "\e90a";
+  }
+  .icomoon.user-circle:before {
+    content: "\e90b";
+  }
+  .icomoon.user-add:before {
+    content: "\e90c";
+  }
+  .icomoon.upload:before {
+    content: "\e90d";
+  }
+  .icomoon.trash:before {
+    content: "\e90e";
+  }
+  .icomoon.support:before {
+    content: "\e90f";
+  }
+  .icomoon.sun:before {
+    content: "\e910";
+  }
+  .icomoon.stop:before {
+    content: "\e911";
+  }
+  .icomoon.announcemnent:before {
+    content: "\e912";
+  }
+  .icomoon.sparkles:before {
+    content: "\e913";
+  }
+  .icomoon.shopping-cart:before {
+    content: "\e914";
+  }
+  .icomoon.shield-check:before {
+    content: "\e915";
+  }
+  .icomoon.share:before {
+    content: "\e916";
+  }
+  .icomoon.selector:before {
+    content: "\e917";
+  }
+  .icomoon.search:before {
+    content: "\e918";
+  }
+  .icomoon.reply:before {
+    content: "\e919";
+  }
+  .icomoon.question-mark-circle:before {
+    content: "\e91a";
+  }
+  .icomoon.plus-circle:before {
+    content: "\e91b";
+  }
+  .icomoon.photograph-2:before {
+    content: "\e91c";
+  }
+  .icomoon.pencil-alt:before {
+    content: "\e91d";
+  }
+  .icomoon.pencil:before {
+    content: "\e91e";
+  }
+  .icomoon.pause:before {
+    content: "\e91f";
+  }
+  .icomoon.paper-clip:before {
+    content: "\e920";
+  }
+  .icomoon.music-note:before {
+    content: "\e921";
+  }
+  .icomoon.moon:before {
+    content: "\e922";
+  }
+  .icomoon.minus-circle:before {
+    content: "\e923";
+  }
+  .icomoon.microphone:before {
+    content: "\e925";
+  }
+  .icomoon.menu-alt-4:before {
+    content: "\e926";
+  }
+  .icomoon.menu-alt-3:before {
+    content: "\e927";
+  }
+  .icomoon.menu-alt-2:before {
+    content: "\e928";
+  }
+  .icomoon.menu-alt-1:before {
+    content: "\e929";
+  }
+  .icomoon.menu:before {
+    content: "\e92a";
+  }
+  .icomoon.mail-open:before {
+    content: "\e92b";
+  }
+  .icomoon.mail:before {
+    content: "\e92c";
+  }
+  .icomoon.logout:before {
+    content: "\e92d";
+  }
+  .icomoon.login:before {
+    content: "\e92e";
+  }
+  .icomoon.lock-open:before {
+    content: "\e92f";
+  }
+  .icomoon.lock-closed:before {
+    content: "\e930";
+  }
+  .icomoon.location-marker:before {
+    content: "\e931";
+  }
+  .icomoon.link:before {
+    content: "\e932";
+  }
+  .icomoon.light-bulb:before {
+    content: "\e933";
+  }
+  .icomoon.information-circle:before {
+    content: "\e934";
+  }
+  .icomoon.icon-comment:before {
+    content: "\e935";
+  }
+  .icomoon.icon-cog:before {
+    content: "\e936";
+  }
+  .icomoon.hashtag:before {
+    content: "\e937";
+  }
+  .icomoon.globe:before {
+    content: "\e938";
+  }
+  .icomoon.folder:before {
+    content: "\e939";
+  }
+  .icomoon.flag:before {
+    content: "\e93a";
+  }
+  .icomoon.filter:before {
+    content: "\e93b";
+  }
+  .icomoon.fast-forward:before {
+    content: "\e93c";
+  }
+  .icomoon.eye-off:before {
+    content: "\e93d";
+  }
+  .icomoon.eye:before {
+    content: "\e93e";
+  }
+  .icomoon.external-link:before {
+    content: "\e93f";
+  }
+  .icomoon.exclamation-circle:before {
+    content: "\e940";
+  }
+  .icomoon.exclamation:before {
+    content: "\e941";
+  }
+  .icomoon.emoji-sad:before {
+    content: "\e942";
+  }
+  .icomoon.emoji-happy:before {
+    content: "\e943";
+  }
+  .icomoon.duplicate:before {
+    content: "\e944";
+  }
+  .icomoon.download:before {
+    content: "\e945";
+  }
+  .icomoon.dots-circle-horizontal:before {
+    content: "\e948";
+  }
+  .icomoon.device-tablet:before {
+    content: "\e949";
+  }
+  .icomoon.device-mobile:before {
+    content: "\e94a";
+  }
+  .icomoon.desktop-computer:before {
+    content: "\e94b";
+  }
+  .icomoon.database:before {
+    content: "\e94c";
+  }
+  .icomoon.cursor-click:before {
+    content: "\e94d";
+  }
+  .icomoon.credit-card:before {
+    content: "\e94e";
+  }
+  .icomoon.clipboard-copy:before {
+    content: "\e94f";
+  }
+  .icomoon.clipboard-check:before {
+    content: "\e950";
+  }
+  .icomoon.chevron-up:before {
+    content: "\e951";
+  }
+  .icomoon.chevron-right:before {
+    content: "\e952";
+  }
+  .icomoon.chevron-left:before {
+    content: "\e953";
+  }
+  .icomoon.chevron-down:before {
+    content: "\e954";
+  }
+  .icomoon.check-circle:before {
+    content: "\e955";
+  }
+  .icomoon.check:before {
+    content: "\e956";
+  }
+  .icomoon.chat:before {
+    content: "\e957";
+  }
+  .icomoon.camera:before {
+    content: "\e958";
+  }
+  .icomoon.bookmark:before {
+    content: "\e959";
+  }
+  .icomoon.notification:before {
+    content: "\e95a";
+  }
+  .icomoon.ban:before {
+    content: "\e95b";
+  }
+  .icomoon.arrow-circle-left:before {
+    content: "\e95c";
+  }
+  .icomoon.arrow-circle-down:before {
+    content: "\e95d";
+  }
+  .icomoon.annotation:before {
+    content: "\e95e";
+  }
