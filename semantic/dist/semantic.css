@@ -8102,24 +8102,24 @@ i.inverted.circular.black.icon {
 i.mini.icon,
 i.mini.icons {
   line-height: 1;
-  font-size: 0.4em;
+  font-size: 0.285em;
 }
 
 i.tiny.icon,
 i.tiny.icons {
   line-height: 1;
-  font-size: 0.5em;
+  font-size: 0.428em;
 }
 
 i.small.icon,
 i.small.icons {
   line-height: 1;
-  font-size: 0.75em;
+  font-size: 0.571em;
 }
 
 i.icon,
 i.icons {
-  font-size: 1em;
+  font-size: 1.142em;
 }
 
 i.large.icon,
@@ -8133,21 +8133,21 @@ i.big.icon,
 i.big.icons {
   line-height: 1;
   vertical-align: middle;
-  font-size: 2em;
+  font-size: 2.285 em;
 }
 
 i.huge.icon,
 i.huge.icons {
   line-height: 1;
   vertical-align: middle;
-  font-size: 4em;
+  font-size: 3.428em;
 }
 
 i.massive.icon,
 i.massive.icons {
   line-height: 1;
   vertical-align: middle;
-  font-size: 8em;
+  font-size: 4.571em;
 }
 
 /*******************************
@@ -23990,8 +23990,8 @@ ol.ui.horizontal.list li:before,
 .ui.vertical.menu .item > .label {
   background: #1a202c;
   color: #a0aec0;
-  margin-top: -0.15em;
-  margin-bottom: -0.15em;
+  margin-top: 0em;
+  margin-bottom: 0em;
   padding: 0.3em 0.78571429em;
 }
 
@@ -24208,7 +24208,7 @@ Floated Menu / Item
 .ui.vertical.menu .item > i.icon {
   width: 1.18em;
   float: none;
-  margin: 0 0.5em 0 -0.5em;
+  margin: 0 0.2em 0 -0.1em;
 }
 
 .ui.vertical.menu .item > .label + i.icon {
@@ -25981,7 +25981,7 @@ Floated Menu / Item
 /* Paragraph */
 
 .ui.message p {
-  opacity: 0.85;
+  opacity: 1;
   margin: 0.75em 0em;
 }
 
@@ -26002,7 +26002,7 @@ Floated Menu / Item
 .ui.message .list:not(.ui) {
   text-align: left;
   padding: 0em;
-  opacity: 0.85;
+  opacity: 1;
   list-style-position: inside;
   margin: 0.5em 0em 0em;
 }
@@ -26037,7 +26037,7 @@ Floated Menu / Item
 /* Icon */
 
 .ui.message > .icon {
-  margin-right: 0.6em;
+  margin-right: 0.4em;
 }
 
 /* Close Icon */
@@ -26048,7 +26048,7 @@ Floated Menu / Item
   margin: 0em;
   top: auto;
   right: 0.5em;
-  opacity: 0.7;
+  opacity: 1;
   -webkit-transition: opacity 0.1s ease;
   transition: opacity 0.1s ease;
 }
@@ -26175,7 +26175,7 @@ Floated Menu / Item
   line-height: 1;
   vertical-align: middle;
   font-size: 3em;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .ui.icon.message > .content {
