@@ -6,3 +6,12 @@
 @width: @iconWidth;
 @height: 1.2em;
 @distanceFromText: 0.15rem;
+
+@mini: 0.285em;
+@tiny: 0.428em;
+@small: 0.571em;
+@medium: 1.142em;
+@large: 1.5em;
+@big: 2.285 em;
+@huge: 3.428em;
+@massive: 4.571em;
