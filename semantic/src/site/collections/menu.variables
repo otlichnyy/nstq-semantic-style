@@ -15,13 +15,13 @@
 
 /* Vertical Icon */
 @verticalIconFloat: none;
-@verticalIconMargin: 0 0.5em 0 -0.5em;
+@verticalIconMargin: 0 0.2em 0 -0.1em;
 
 /*--------------
     Couplings
 ---------------*/
 /* Label */
-@labelOffset: -0.15em;
+@labelOffset: 0em;
 @labelBackground: @gray-900;
 @labelTextColor: @gray-500;
 
